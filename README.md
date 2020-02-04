@@ -1,6 +1,4 @@
-*For other versions of OpenShift, follow the instructions in the corresponding branch e.g. ocp-3.11, ocp-3.10, etc
-
-# CI/CD Demo - OpenShift Container Platform 3.11
+*# CI/CD Demo - OpenShift Container Platform 3.11
 
 This repository includes the infrastructure and pipeline definition for continuous delivery using Jenkins, Nexus, SonarQube and Eclipse Che on OpenShift. 
 
@@ -42,7 +40,7 @@ The application used in this pipeline is a JAX-RS application which is available
 If you have access to RHPDS, provisioning of this demo is automated via the service catalog under **OpenShift Demos &rarr; OpenShift CI/CD for Monolith**. If you don't know what RHPDS is, read the instructions in the next section.
 
 ## Automated Deploy on OpenShift
-You can se the `scripts/provision.sh` script provided to deploy the entire demo:
+You can see the `scripts/provision.sh` script provided to deploy the entire demo:
 
   ```
   ./provision.sh --help
